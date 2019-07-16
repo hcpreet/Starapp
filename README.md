@@ -1,5 +1,5 @@
 # Overview
-The experiment application is for iflix. This application submits 5 start ratings for iflix titles.
+The experiment application is samle. This application submits 5 start ratings for video titles.
 
 # StarApp
 
