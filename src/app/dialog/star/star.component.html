@@ -1,0 +1,36 @@
+
+<div *ngIf='!forDisplay' class="kendo-dialog-lg">
+    <form class="popup-container">
+        <div class="popup-head clearfix">
+
+                </div>
+
+        <div class="popup-body">
+            <div class="container">
+
+                <div class="sectionpopup">
+                    <div class="block">
+                        <div>To Rate</div>
+                        <span class='star-rating'>
+                                
+                         
+    <i *ngFor='let n of range; let $index = index;' class='fa to-rate' (click)='mark($index)' [ngClass]='isMarked($index)'></i> 
+            <div class="actions">
+                <button class="button" (click)="onSave()">Save</button>
+                <button class="cancelbutton" (click)="onCancel()">Cancel</button>
+            </div>
+             </span>
+                        <div>Rating: {{score}}</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+
+
+<span class='star-rating'>
+    <ng-container *ngIf='forDisplay'>
+      <i *ngFor='let n of range; let $index = index;' class="to-display fa" [ngClass]='isMarked($index)'></i>
+    </ng-container>
+</span>

@@ -1,0 +1,93 @@
+
+$gray: #aaa;
+
+body{
+  background: black;
+  color: white 
+  ;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+}
+  .section{
+      margin-top: 150px;
+    display: flex;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .sectionpopup{
+    display: flex;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+
+    .block{
+      border: 1px solid $gray;
+      font-size: 18px;
+       color:black ;
+      border-radius: 3px;
+      margin:16px;
+      padding: 40px;
+      .margin-vertical-8{
+        margin: 8px 0;
+      }
+    }
+  
+  
+
+
+.star-rating{
+    .to-rate{
+        cursor: pointer;
+        padding: 0 3px;
+    }
+    .fa-star-o{
+        color: orange;
+    }
+    .fa-star{
+        color: orange;
+    }
+    .fa-star-half-o{
+        color: orange;
+    }
+    .to-display{
+        padding: 0 2px;
+    }
+    
+}
+
+.button {
+    background-color: rgb(226, 105, 105);
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.cancelbutton {
+    background-color: 	rgb(48, 49, 48);
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}

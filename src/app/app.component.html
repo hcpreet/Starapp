@@ -1,0 +1,23 @@
+
+<div class="container">
+  <h1> Watch you favourite show on Iflix </h1>
+  <div class="section">
+    <div class="block">
+       <div >
+      <iframe width="600" height="450" src="https://www.youtube.com/embed/n1ETnarZoRQ" frameborder="0"></iframe>
+        </div>
+<div  >
+  <div >
+    <button class="button" (click)="giveRating()"> Rate this viedo </button>
+   <div kendoDialogContainer></div>   
+  </div>
+
+   
+    
+      <div >
+      <star-rating [score]="displayRatingScore" [forDisplay]="true"></star-rating>
+      </div>
+
+    </div>
+  </div>
+</div>
